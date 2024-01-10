@@ -32,7 +32,7 @@ gitHubBtnLayer.addEventListener("mouseleave",()=>{
  })
 
  right.addEventListener("click",()=>{
-    currWork = (currWork+1)%6;
+    currWork = (currWork+1)%works.length;
     currLink=currWork;
     // console.log(workLinks[currLink]);
     workContainer.style.background = `url(${works[currWork]})`;
@@ -42,7 +42,7 @@ gitHubBtnLayer.addEventListener("mouseleave",()=>{
  left.addEventListener("click",()=>{
     currWork -=1;
     if(currWork===-1){
-        currWork=5;
+        currWork=6;
     }
     currLink=currWork;
     workContainer.style.background = `url(${works[currWork]})`;

@@ -9,8 +9,8 @@ let userid = document.querySelector("#employer-email");
 let userMailBody = document.querySelector("#employer-problem-description");
 let currWork = 0;
 let currLink = currWork;
-let works = ["ToDoList.png","tictactoe.png","StopWatch.png","WeatherApp.png","snakeGame.png","netflixLandingPageClone.png"];
-let workLinks = ["https://to-do-eight-chi.vercel.app/","https://javascript-basic-projects-i57f-git-main-sunny-mishras-projects.vercel.app/tic-tac-toe/tictactoe.html","https://stopwatch-gamma-seven.vercel.app/","https://weather-app-kappa-dun.vercel.app/","https://javascript-basic-projects-i57f-git-main-sunny-mishras-projects.vercel.app/snake%20game/snake.html","https://flix-blush.vercel.app/"];
+let works = ["ToDoList.png","tictactoe.png","StopWatch.png","WeatherApp.png","snakeGame.png","netflixLandingPageClone.png","quote-generator-img.png"];
+let workLinks = ["https://to-do-eight-chi.vercel.app/","https://javascript-basic-projects-i57f-git-main-sunny-mishras-projects.vercel.app/tic-tac-toe/tictactoe.html","https://stopwatch-gamma-seven.vercel.app/","https://weather-app-kappa-dun.vercel.app/","https://javascript-basic-projects-i57f-git-main-sunny-mishras-projects.vercel.app/snake%20game/snake.html","https://flix-blush.vercel.app/","https://my-portfolio-beta-kohl.vercel.app/"];
 workContainer.style.background = `url(${works[currWork]})`;
 gitHubBtn.addEventListener("click",()=>{
     window.open(workLinks[currLink])

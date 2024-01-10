@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+#home{
+    height: 100vh;
+    border-bottom: 2px solid #dadada;
+}
+#nav{
+    padding: 0.5vw 2vw;
+    height: 12vh;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    backdrop-filter:blur(20px);
+}
+.logo{
+    height: 3vw;
+    width: 3vw;
+}
+.sec-half-nav{
+    font-size: 2.2vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 6vh; */
+    font-weight: 500;
+}
+a{
+    
+    /* padding: 15px; */
+    /* background-color: #dadada76; */
+    text-decoration: none;
+    color: #fff;
+}
+.download-cv{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #dadada2e;
+}
+#home-subject{
+    padding-top: 12vh;
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 12vh 0; */
+}
+.moving-lines{
+    color: #fff;
+    font-size: 18vh;
+    white-space: nowrap;
+    font-weight: 600;
+}
+marquee{
+    word-spacing: 10vh;
+}
+.subject-img{
+    position: absolute;
+    height: 60vh;
+    width: 60vh;
+}
+#page2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 10vh 0;
+    position: relative;
+    border-bottom: 2px solid #dadada;
+}
+h2{
+    font-size: 10vh;
+    color: #fff;
+}
+.works{
+    height: 70vh;
+    width: 100vh;
+    /* background: url("snakeGame.png"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-color: ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    border-radius: 4px;
+    /* z-index: 1; */
+}
+
+.icons{
+    height: 10vh;
+    width: 5vh;
+    background-color: #dadada76;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 1;
+}
+.see-in-github-layer{
+    margin-top: 17.5vh;
+    position: absolute;
+    height: 70vh;
+    width: 100vh;
+    /* background-color: #dadada76; */
+    /* backdrop-filter: blur(10px); */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: -1; */
+    transition: all ease 0.3s;
+}
+
+.github-btn{
+    /* height: 5vh;
+    width: 15vh; */
+    font-size: 2.2vh;
+    font-weight: 700;
+    border: 2px solid #000000;
+    color: #000000;
+    background-color: #dadada94;
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: -1;
+    /* display: none; */
+}
+/* .github-btn:hover{
+    background-color: transparent
+} */
+#page3{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 10vh 0;
+    position: relative;
+    border-bottom: 2px solid #dadada;
+}
+.skill-container{
+    height: 70vh;
+    width: 100vh;
+    /* background-color: rgb(156, 0, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 4px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+}
+.skill-img{
+    height: 28vh;
+    width: 28vh;
+}
+.js-img{
+    height: 30vh;
+    width: 30vh;
+}
+#page4{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 10vh 0;
+    position: relative;
+    /* border-bottom: 2px solid #dadada; */
+}
+.about-contact-container{
+    height: 75vh;
+    width: 150vh;
+    /* background-color: rgb(156, 0, 0); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    border-radius: 4px;
+}
+.about-contact-container-heading{
+    font-size: 8vh;
+    text-align: center;
+}
+.about-para{
+    font-size: 4.2vh;
+    margin-top: 4.2vh;
+}
+.about{
+    /* background-color: #ffffff51; */
+    width: 75vh;
+    /* padding-top: 2vh;
+    padding-left: 4vh; */
+    border-right: 1px solid #ffffff8c;
+}
+.contact-me{
+    /* background-color: #ffffff61; */
+    width: 75vh;
+    /* padding-top: 2vh;
+    padding-left: 4vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1.5vh;
+    padding: 2vh;
+}
+input{
+    position: relative;
+    padding: 4px 8px;
+    background-color: transparent;
+    border:1px solid #fff;
+    border-radius: 3px;
+    width: 100%;
+}
+textarea{
+    width: 71vh;
+    padding: 4px 8px;
+    background-color: transparent;
+    border:1px solid #fff;
+    border-radius: 3px;
+    /* width: 100%; */
+}
+
+#employer-btn{
+    /* width: 6vh; */
+    font-weight: 600;
+    cursor: pointer;
+    width: 20vh;
+    padding: 1.5vh 3vh;
+    transition: all ease 0.4s;
+}
+#employer-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+#footer{
+    margin-top: 10vh;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10vh;
+    background:linear-gradient(#ffffff17,#dadada50,#000000e4)
+}
+.footer-logo{
+    height: 20vh;
+    width: 20vh;
+}
+.contact-details{
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.call{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.my-email{
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+}
+.contact-icon{
+    height: 5vh;
+    width: 5vh;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+}
+p{
+    font-size: 3vh;
+}
